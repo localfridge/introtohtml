@@ -5,7 +5,7 @@ text-decoration: line-through;}
 
 h1 + p{background-color:pink;
 padding:20px;
-border-radius 10px;}
+border:10px;}
 
 ul>li{font-weight: bold;}
 
