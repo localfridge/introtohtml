@@ -3,10 +3,14 @@
 
 <head>
     <title>Ice Cube</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <head>
     <style>
+         body{position: relative;}
+
         #yup{transform:rotate(1.5deg);
             height: 230px;
             width: 200px;
@@ -28,6 +32,17 @@ font-size: 80px;
 font-family:  Haettenschweiler;
 color:rgb(7, 7, 82);
 text-align: center;
+
+#Home{color: aqua;
+height:500px ;
+padding:100px;
+background-color:palevioletred ;
+}
+
+#Purchase info{color: rgb(71, 24, 201);
+height:500px;
+padding:100px;
+background-color:rgb(241, 233, 230);}
 }
 
 
@@ -43,30 +58,49 @@ text-align: center;
 
     </style>
 
-<body>
-    
-    
-<div id="yo"><sup>.</sup></div>
-<div id="grad1">Whats cooler than being cool?
-        <div id="hi">
-            <h3>This is the main page of Ice Cold ice celling company</h3>
-        </div>
-        <div id="yup">Ice cold
-    </div>
-<body>
-    <table border="9">
-
-       <div id="uo"> <tr>
-            <td>How much ice produced in a day</td>
-            <td>Time it takes to produce ice bullets</td>
-            <td>Utility and water needage</td>
-        </tr>
-
-        <tr>
-            <td>20kg max</td>
-            <td>7-13min per cycle</td>
-            <td> Low maintenance says when low on water and too much ice needs ,2L water</td>
-        </tr></div>
+        <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+        
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Ice cold</a>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#Purchase info">Purchase info</a></li>
+                            </ul>
+                        </nav>
+                        <div id="Home" class="container-fluid">
+                        <div id="grad1">Whats cooler than being cool?
+                            <div id="hi">
+                                <h1><mark>Ice Cold ice selling company</mark></h3>
+                            </div>
+                            <div id="yup">Ice cold
+                        </div>
+                        
+                        <div id="Purchase info" class="container-fluid">
+                            <table border="9">
+                            
+                                <div id="uo">
+                                    <tr>
+                                        <td>How much ice produced in a day</td>
+                                        <td>Time it takes to produce ice bullets</td>
+                                        <td>Utility and water needage</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td>20kg max</td>
+                                        <td>7-13min per cycle</td>
+                                        <td> Low maintenance says when low on water and too much ice needs ,2L water</td>
+                                    </tr>
+                                </div>
+                        </div>
 </body>
 
 </html>

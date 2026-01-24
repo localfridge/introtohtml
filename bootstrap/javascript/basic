@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <h3 id="m3"></h3>
+    <p id="m4"></p>
+    <script>
+document.getElementById('m3').innerHTML='javascript comments'
+
+    </script>
+</body>
+
+
+</head>
