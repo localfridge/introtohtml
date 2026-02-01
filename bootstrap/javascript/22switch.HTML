@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+
+<body>
+<P id='modres'></P>
+    <script>
+function findmax(){
+var counter;
+var max=0;
+for(counter=0;counter<arguments.length;counter++)
+{if (arguments[counter]>max)
+{
+    { max = arguments[counter]; }
+}
+}
+return max;
+}
+document.getElementById("modres").innerHTML=findmax(13,18,17)
+    </script>
+</body>
+
+
+</head>
