@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+
+<body>
+<p id="2tickles"></p>
+<p id="10tickles"></p>
+    <script>
+class octopus{
+    constructor(name,year){
+    this.year=year;
+    this.name=name;
+}
+age(){
+    let date= new Date();
+    return date.getFullYear()-this.year;
+}
+}
+student1= new octopus ("Robbie",2014);
+document.getElementById("2tickles").innerHTML= "my name is:"+student1.name +"I was born in:"+student1.year+student1.age()+" I am years old";
+
+    student1 = new octopus("Robbie", 2014);
+    document.getElementById("10tickles").innerHTML = "my name is:" + student1.name + "I was born in:" + student1.year + student1.age() + " I am years old";
+
+    </script>
+</body>
+
+
+</head>
