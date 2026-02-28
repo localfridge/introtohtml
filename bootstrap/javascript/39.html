@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+
+<body>
+<p id="res"></p>
+    <script>
+var objr={name:"robby",age:15,home:"burbank"};
+
+var mrJSON=JSON.stringify(objr);
+
+    var objr= JSON.parse(mrJSON);//back into object,the json,while recieving data 
+
+document.getElementById("res").innerHTML=objr.age;
+
+    </script>
+</body>
+
+
+</head>
