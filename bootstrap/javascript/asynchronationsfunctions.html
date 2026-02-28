@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+
+<body>
+<p id="res"></p>
+    <script>
+        async function product(a,b){
+            let response= await a * b;
+            display(response);
+        }
+function display(some){
+    document.getElementById("res").innerHTML=some;
+}
+product(5,2);
+    </script>
+</body>
+
+
+</head>
