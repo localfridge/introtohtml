@@ -5,14 +5,14 @@
 <body>
 <p id="res"></p>
     <script>
-        async function product(a,b){
+        async function multiplications(a,b){
             let response= await a * b;
-            display(response);
+            show(response);
         }
-function display(some){
+function show(some){
     document.getElementById("res").innerHTML=some;
 }
-product(5,2);
+multiplications(5,2);
     </script>
 </body>
 
