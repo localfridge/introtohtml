@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+
+<body>
+
+    
+<input id="r1" type="number" min="100" max="300" required>
+<button onclick="myFunction()">ok</button>
+<p id="res"></p>
+<script>
+function myFunction(){
+var impobj=document.getElementById("r1");
+if (!impobj.checkValidity()){
+    document.getElementById("res").innerHTML=impobj.validationMessage;
+}
+else{
+    document.getElementById("res").innerHTML="Input ok";
+}
+}
+    </script>
+</body>
+</html>

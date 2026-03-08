@@ -14,17 +14,18 @@ function some(a,b){
 }
 
 
-let mypromise= new Promise(function(myResolve,myReject){
+let mypromise= new Promise(function(myresolve,myerror){
     let x=0
     if (x==0){
-    myResolve=("OK");}
+    myresolve("OK");}
     else{ 
-    myReject=("Error");}
+    myerror("Error");}
 });
 mypromise.then(
 function(value) {some (5,5);},
 function(error) {some (error);}
 );
+//consumer can oonly produce result when producer has a result of either a value or errror
 
 
     </script>
